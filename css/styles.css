@@ -1,0 +1,64 @@
+header {
+  background: #ffedde;
+}
+.color-style {
+  color: #fa804c;
+}
+#info-section h6{
+    font-size: 24px;
+    font-weight: 700;
+}
+.payment {
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+}
+.payment-1 {
+  width: 150px;
+}
+.payment img {
+  width: 100%;
+}
+footer h4{
+    font-size: 28px;
+    color: #ccc;
+}
+
+.buy-btn {
+  background-image: linear-gradient(
+    to right,
+    #1e3c72 0%,
+    #2a5298 51%,
+    #1e3c72 100%
+  );
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  outline: none;
+}
+.buy-btn img{
+    width: 30%;
+}
+
+.buy-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px black;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fa804c;
+}
+.media-link a{
+    font-size: 32px;
+    color: white;
+    transition: .4s;
+}
+.media-link a:hover{
+    color: #fa804c;
+}
